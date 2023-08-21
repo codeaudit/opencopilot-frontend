@@ -1,6 +1,10 @@
 # OpenCopilot example frontend
 
-The front-end is built on top of the Verel AI SDK and branched off of the [Next.js AI chatbot](https://github.com/vercel-labs/ai-chatbot), for which the original README is below. The instructions are not up to date; please visit the main README of the project for setting up a local development environment for the front-end.
+This is the example conversational front-end for [OpenCopilot](https://docs.opencopilot.dev/).
+
+If you are looking for the repository of the OpenCopilot Python framework, see [opencopilotdev/opencopilot](https://github.com/opencopilotdev/opencopilot).
+
+The front-end is built on top of the Verel AI SDK and branched off of the [Next.js AI chatbot](https://github.com/vercel-labs/ai-chatbot), for which the original README is below. These instructions are not kept up to date; please visit the [OpenCopilot docs](https://docs.opencopilot.dev/) to read about setting up a development environment.
 
 # Original Readme
 
