@@ -16,7 +16,10 @@ function IconCopilot({copilotName}: IconCopilotProps) {
   if (copilotName === "unity") {
     return (<Image src={copilotIconUnity} alt="logo" width={24} height={24}/>)
   }
-  return (<Image src={copilotIconRpm} alt="logo" width={24} height={24}/>)
+  if (copilotName === "rpm") {
+    return (<Image src={copilotIconRpm} alt="logo" width={24} height={24}/>)
+  }
+  return (<Image src={""} alt="logo" width={24} height={24}/>)
 }
 
 function IconGoogle({className, ...props}: React.ComponentProps<'svg'>) {
