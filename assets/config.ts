@@ -15,7 +15,7 @@ export interface CopilotConfig {
   ICON_APPLE: string
   LOGO_PATH: string,
   LOGO_LINK_URL: string
-  LOGO_IMAGE_ATL: string
+  LOGO_IMAGE_ALT: string
 }
 
 export interface Config {
@@ -39,18 +39,18 @@ export const CONFIG: Config = {
         message: `Who are you?`
       },
     ],
-    EMPTY_SCREEN_TITLE: "Hey, I’m Sidekik (Beta) 👋",
+    EMPTY_SCREEN_TITLE: "Hey, I’m OpenCopilot 👋",
     EMPTY_SCREEN_BODY: "I’m here to help you make your own copilots!\n To create your own copilot, follow the README [here](https://github.com/opencopilotdev/opencopilot).",
     FOOTER: "Copilot may produce inaccurate information about people, places, or facts.",
-    TAB_TITLE_BASE: "Sidekik Copilot",
-    TAB_TITLE_FORMAT: "%s - Sidekik Copilot",
+    TAB_TITLE_BASE: "OpenCopilot",
+    TAB_TITLE_FORMAT: "%s - OpenCopilot",
     DESCRIPTION: "An AI-powered copilot that help developers quickly build copilots.",
     ICON_PATH: "/default/favicon.ico",
     ICON_SHORTCUT: "/default/favicon-16x16.png",
     ICON_APPLE: "/default/apple-touch-icon.png",
-    LOGO_PATH: "/default/logo.svg",
-    LOGO_LINK_URL: "https://app.sidekik.ai",
-    LOGO_IMAGE_ATL: "Sidekik logo",
+    LOGO_PATH: "/default/logo.png",
+    LOGO_LINK_URL: "https://opencopilot.dev",
+    LOGO_IMAGE_ALT: "Logo",
   },
   rpm: {
     EXAMPLE_MESSAGES: [
@@ -80,7 +80,7 @@ export const CONFIG: Config = {
     ICON_APPLE: "/rpm/apple-touch-icon.png",
     LOGO_PATH: "/rpm/logo.svg",
     LOGO_LINK_URL: "https://docs.readyplayer.me",
-    LOGO_IMAGE_ATL: "Ready Player Me logo",
+    LOGO_IMAGE_ALT: "Ready Player Me logo",
   },
   unity: {
     EXAMPLE_MESSAGES: [
@@ -111,6 +111,6 @@ export const CONFIG: Config = {
     ICON_APPLE: "/unity/apple-touch-icon.png",
     LOGO_PATH: "/unity/logo.svg",
     LOGO_LINK_URL: "https://docs.unity3d.com",
-    LOGO_IMAGE_ATL: "Unity logo",
+    LOGO_IMAGE_ALT: "Unity logo",
   },
 }

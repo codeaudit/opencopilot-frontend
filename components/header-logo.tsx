@@ -30,9 +30,15 @@ export function HeaderLogo() {
           Copilot: {copilotName}
       </div>}
       <Link href={config.LOGO_LINK_URL} target="_blank" rel="nofollow">
-        {defaultCopilotName !== "rpm" &&
-            <Image src={config.LOGO_PATH} alt={config.LOGO_IMAGE_ATL}
+        {defaultCopilotName !== "rpm" && <>
+          {defaultCopilotName === "default" ?
+            <Image src={config.LOGO_PATH} alt={config.LOGO_IMAGE_ALT}
+                   width="175" height="120"/>
+            :
+            <Image src={config.LOGO_PATH} alt={config.LOGO_IMAGE_ALT}
                    width="100" height="60"/>
+          }
+        </>
         }
 
       </Link>
