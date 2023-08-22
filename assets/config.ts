@@ -35,8 +35,16 @@ export const CONFIG: Config = {
   default: {
     EXAMPLE_MESSAGES: [
       {
-        heading: 'Who are you?',
-        message: `Who are you?`
+        heading: 'How can I make my own copilot?',
+        message: `How can I make my own copilot?`
+      },
+      {
+        heading: 'What can copilots do?',
+        message: 'What can copilots do?'
+      },
+      {
+        heading: 'How good are open-source LLMs?',
+        message: `How good are open-source LLMs?`
       },
     ],
     EMPTY_SCREEN_TITLE: "Hey, I’m OpenCopilot 👋",

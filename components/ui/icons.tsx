@@ -7,6 +7,7 @@ import Image from 'next/image'
 // TODO: improve this
 import copilotIconRpm from "@/public/rpm/icon.svg";
 import copilotIconUnity from "@/public/unity/icon.svg";
+import copilotIconDefault from "@/public/default/logo2.png"
 
 interface IconCopilotProps {
   copilotName: string
@@ -19,7 +20,7 @@ function IconCopilot({copilotName}: IconCopilotProps) {
   if (copilotName === "rpm") {
     return (<Image src={copilotIconRpm} alt="logo" width={24} height={24}/>)
   }
-  return (<Image src={""} alt="logo" width={24} height={24}/>)
+  return (<Image src={copilotIconDefault} alt="logo" width={24} height={24}/>)
 }
 
 function IconGoogle({className, ...props}: React.ComponentProps<'svg'>) {
