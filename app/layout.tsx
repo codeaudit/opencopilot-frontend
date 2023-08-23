@@ -9,7 +9,7 @@ import {Header} from '@/components/header'
 import Script from "next/script";
 import {getCopilotConfig} from '@/assets/config'
 import {Metadata} from "next";
-import { AnimatedSidebar } from '@/components/animated-sidebar';
+import {AnimatedSidebar} from '@/components/animated-sidebar';
 
 export const metadata: Metadata = getMetadata(process.env.NEXT_PUBLIC_COPILOT_NAME)
 
@@ -40,6 +40,8 @@ interface RootLayoutProps {
 export default function RootLayout({children}: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
+    <head>
+    </head>
     <body
       className={cn(
         'font-sans antialiased',
